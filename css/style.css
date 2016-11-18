@@ -1,0 +1,124 @@
+body {
+  padding-bottom: 20px;
+  background: #333;
+  color: #666;
+}
+
+.container-main {
+  background: #FFF;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.logo {
+  padding: 15px 0;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 0;
+  background: #f4f4f4;
+}
+
+/* Carousel Styles */
+
+#myCarousel {
+  /*height: 100%;*/
+  margin-bottom: 20px;
+}
+
+/*#myCarousel .carousel-inner {
+  height: 100%;
+}*/
+
+#myCarousel .carousel-caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  text-shadow: none;
+}
+
+#myCarousel .carousel-caption h4 {
+  color: #fff;
+}
+
+#myCarousel .carousel-caption p {
+  padding: 0;
+  margin: 0;
+}
+
+#myCarousel .list-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#myCarousel .list-group-item {
+  border-radius: 0;
+  cursor: pointer;
+}
+
+#myCarousel .list-group .active {
+  background: #eee;
+  border: 0;
+  color: #666;
+}
+
+#myCarousel .list-group h4 {
+  font-size: 17px;
+  padding: 0 !important;
+  margin: 0 !important;
+  padding-top: 5px;
+}
+
+#myCarousel .img-slide {
+  /*width: 100%;*/
+  height: 100%;
+  float: left;
+  margin-right: 5px;
+}
+
+
+@media(min-width:992px) {
+  #myCarousel {
+    padding-right: 33.3333%;
+  }
+  #myCarousel .carousel-controls {
+    display: none;
+  }
+}
+
+@media(max-width:991px) {
+  .carousel-caption p, #myCarousel .list-group {
+    display: none;
+  }
+}
+
+@media(max-width:1200px) {
+  .slider-list p {
+    display: none;
+  }
+}
+
+/* Posts section */
+
+.post-info {
+  background: #606060;
+  color: #fff;
+  padding: 5px;
+  border: #ccc 1px solid;
+}
+
+.blog-post h3 {
+  margin-top: 0;
+}
+
+/* Sidebar */
+
+.col-md-4 h4 {
+  margin-top: 0;
+}
